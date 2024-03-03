@@ -1,0 +1,217 @@
+.spaceEqually {
+  display: flex;
+  justify-content: space-between;
+}
+
+.spaceEqually a {
+  margin: 10px;
+  font-weight: bold;
+  color: white;
+}
+
+.goToMenu {
+  color: white;
+}
+
+.firstImage {
+  opacity: 0.2;
+}
+
+.title {
+  color: rgba(65, 51, 51, 1);
+}
+
+.imageTextInButton {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0px;
+}
+
+#image1 {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.middle {
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.configure {
+  margin-left: 5px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.rectangle {
+  width: 80px; /* Adjust width as needed */
+  height: 50px; /* Adjust height as needed */
+  background-color: rgba(246, 234, 218, 1); /* Background color */
+  border-radius: 30px; /* Border radius (adjust as needed) */
+}
+
+.arrows {
+  display: flex;
+  justify-content: space-between;
+}
+
+#arrow {
+  margin: auto;
+  margin-top: 12px;
+}
+
+.recommdationsText {
+  font: bold;
+  color: white;
+}
+
+.menuFont {
+  color: rgba(255, 174, 0, 1);
+  font: bold;
+}
+
+#menuTransparentDegree1 {
+  /* background-size: cover; */
+  background-position: center center;
+  /* height: fit-content; */
+  background-image: url("https://mirmediterranean.com/themes/pizzaro/images/homepage-banners/salads_bg.jpg");
+  background-size: 400%;
+}
+
+#menuTransparentDegree2 {
+  background-size: 300%;
+  background-position: center center;
+  background-image: url(https://mirmediterranean.com/themes/pizzaro/images/homepage-banners/desserts_bg.jpg);
+}
+
+.dessertName {
+  color: rgba(255, 174, 0, 1);
+}
+
+.arrow2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.peopleReviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Media query for small screens */
+@media screen and (max-width: 600px) {
+  .anchor {
+    display: block; /* Change to block level on small screens */
+  }
+  .anchors {
+    flex-wrap: wrap;
+  }
+
+  .burgerImage {
+    width: 350px;
+    height: 200px;
+    margin-bottom: 50px;
+  }
+
+  .burgerIntro {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 20px;
+  }
+
+  .burgerWholeContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+}
+
+.inSameLine {
+  display: flex;
+  align-items: center;
+}
+
+/* .inSameLine {
+  display: inline-block;
+} */
+
+/* Media query for large screens */
+@media screen and (min-width: 601px) {
+  .anchors {
+    flex-wrap: wrap;
+    margin-top: 15px;
+  }
+
+  .burgerImage {
+    width: 350px;
+    height: 200px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+  }
+
+  .burgerWholeContent {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  #menuTransparentDegree1 {
+    background-size: cover;
+    background-position: center center;
+    height: fit-content;
+    background-image: url("https://mirmediterranean.com/themes/pizzaro/images/homepage-banners/salads_bg.jpg");
+  }
+
+  #menuTransparentDegree2 {
+    background-size: cover;
+    background-position: center center;
+    height: fit-content;
+    background-image: url(https://mirmediterranean.com/themes/pizzaro/images/homepage-banners/desserts_bg.jpg);
+  }
+
+  .inMiddle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .operationTime {
+    margin-left: 40px;
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  #b1 {
+    color: black;
+  }
+  #b2 {
+    color: black;
+  }
+  #b3 {
+    color: black;
+  }
+  #b4 {
+    color: black;
+  }
+  #b5 {
+    color: black;
+  }
+  #b6 {
+    color: black;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  #invisible {
+    visibility: hidden;
+  }
+}
